@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/eddie/Programming/C++/Programs/todo_list/src/item_class.cpp" "CMakeFiles/my_todo_list.dir/src/item_class.cpp.o" "gcc" "CMakeFiles/my_todo_list.dir/src/item_class.cpp.o.d"
   "/home/eddie/Programming/C++/Programs/todo_list/src/main.cpp" "CMakeFiles/my_todo_list.dir/src/main.cpp.o" "gcc" "CMakeFiles/my_todo_list.dir/src/main.cpp.o.d"
-  "/home/eddie/Programming/C++/Programs/todo_list/src/todo_item_class.cpp" "CMakeFiles/my_todo_list.dir/src/todo_item_class.cpp.o" "gcc" "CMakeFiles/my_todo_list.dir/src/todo_item_class.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

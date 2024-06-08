@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/my_todo_list.dir/src/item_class.cpp.o"
+  "CMakeFiles/my_todo_list.dir/src/item_class.cpp.o.d"
   "CMakeFiles/my_todo_list.dir/src/main.cpp.o"
   "CMakeFiles/my_todo_list.dir/src/main.cpp.o.d"
-  "CMakeFiles/my_todo_list.dir/src/todo_item_class.cpp.o"
-  "CMakeFiles/my_todo_list.dir/src/todo_item_class.cpp.o.d"
   "my_todo_list"
   "my_todo_list.pdb"
 )

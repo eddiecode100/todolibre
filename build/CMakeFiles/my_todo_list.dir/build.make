@@ -83,30 +83,30 @@ CMakeFiles/my_todo_list.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_todo_list.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eddie/Programming/C++/Programs/todo_list/src/main.cpp -o CMakeFiles/my_todo_list.dir/src/main.cpp.s
 
-CMakeFiles/my_todo_list.dir/src/todo_item_class.cpp.o: CMakeFiles/my_todo_list.dir/flags.make
-CMakeFiles/my_todo_list.dir/src/todo_item_class.cpp.o: /home/eddie/Programming/C++/Programs/todo_list/src/todo_item_class.cpp
-CMakeFiles/my_todo_list.dir/src/todo_item_class.cpp.o: CMakeFiles/my_todo_list.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eddie/Programming/C++/Programs/todo_list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/my_todo_list.dir/src/todo_item_class.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_todo_list.dir/src/todo_item_class.cpp.o -MF CMakeFiles/my_todo_list.dir/src/todo_item_class.cpp.o.d -o CMakeFiles/my_todo_list.dir/src/todo_item_class.cpp.o -c /home/eddie/Programming/C++/Programs/todo_list/src/todo_item_class.cpp
+CMakeFiles/my_todo_list.dir/src/item_class.cpp.o: CMakeFiles/my_todo_list.dir/flags.make
+CMakeFiles/my_todo_list.dir/src/item_class.cpp.o: /home/eddie/Programming/C++/Programs/todo_list/src/item_class.cpp
+CMakeFiles/my_todo_list.dir/src/item_class.cpp.o: CMakeFiles/my_todo_list.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eddie/Programming/C++/Programs/todo_list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/my_todo_list.dir/src/item_class.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_todo_list.dir/src/item_class.cpp.o -MF CMakeFiles/my_todo_list.dir/src/item_class.cpp.o.d -o CMakeFiles/my_todo_list.dir/src/item_class.cpp.o -c /home/eddie/Programming/C++/Programs/todo_list/src/item_class.cpp
 
-CMakeFiles/my_todo_list.dir/src/todo_item_class.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_todo_list.dir/src/todo_item_class.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eddie/Programming/C++/Programs/todo_list/src/todo_item_class.cpp > CMakeFiles/my_todo_list.dir/src/todo_item_class.cpp.i
+CMakeFiles/my_todo_list.dir/src/item_class.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_todo_list.dir/src/item_class.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eddie/Programming/C++/Programs/todo_list/src/item_class.cpp > CMakeFiles/my_todo_list.dir/src/item_class.cpp.i
 
-CMakeFiles/my_todo_list.dir/src/todo_item_class.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_todo_list.dir/src/todo_item_class.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eddie/Programming/C++/Programs/todo_list/src/todo_item_class.cpp -o CMakeFiles/my_todo_list.dir/src/todo_item_class.cpp.s
+CMakeFiles/my_todo_list.dir/src/item_class.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_todo_list.dir/src/item_class.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eddie/Programming/C++/Programs/todo_list/src/item_class.cpp -o CMakeFiles/my_todo_list.dir/src/item_class.cpp.s
 
 # Object files for target my_todo_list
 my_todo_list_OBJECTS = \
 "CMakeFiles/my_todo_list.dir/src/main.cpp.o" \
-"CMakeFiles/my_todo_list.dir/src/todo_item_class.cpp.o"
+"CMakeFiles/my_todo_list.dir/src/item_class.cpp.o"
 
 # External object files for target my_todo_list
 my_todo_list_EXTERNAL_OBJECTS =
 
 my_todo_list: CMakeFiles/my_todo_list.dir/src/main.cpp.o
-my_todo_list: CMakeFiles/my_todo_list.dir/src/todo_item_class.cpp.o
+my_todo_list: CMakeFiles/my_todo_list.dir/src/item_class.cpp.o
 my_todo_list: CMakeFiles/my_todo_list.dir/build.make
 my_todo_list: CMakeFiles/my_todo_list.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/eddie/Programming/C++/Programs/todo_list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable my_todo_list"

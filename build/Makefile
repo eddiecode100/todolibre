@@ -129,6 +129,30 @@ my_todo_list/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_todo_list.dir/build.make CMakeFiles/my_todo_list.dir/build
 .PHONY : my_todo_list/fast
 
+src/item_class.o: src/item_class.cpp.o
+.PHONY : src/item_class.o
+
+# target to build an object file
+src/item_class.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_todo_list.dir/build.make CMakeFiles/my_todo_list.dir/src/item_class.cpp.o
+.PHONY : src/item_class.cpp.o
+
+src/item_class.i: src/item_class.cpp.i
+.PHONY : src/item_class.i
+
+# target to preprocess a source file
+src/item_class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_todo_list.dir/build.make CMakeFiles/my_todo_list.dir/src/item_class.cpp.i
+.PHONY : src/item_class.cpp.i
+
+src/item_class.s: src/item_class.cpp.s
+.PHONY : src/item_class.s
+
+# target to generate assembly for a file
+src/item_class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_todo_list.dir/build.make CMakeFiles/my_todo_list.dir/src/item_class.cpp.s
+.PHONY : src/item_class.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -153,30 +177,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_todo_list.dir/build.make CMakeFiles/my_todo_list.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/todo_item_class.o: src/todo_item_class.cpp.o
-.PHONY : src/todo_item_class.o
-
-# target to build an object file
-src/todo_item_class.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_todo_list.dir/build.make CMakeFiles/my_todo_list.dir/src/todo_item_class.cpp.o
-.PHONY : src/todo_item_class.cpp.o
-
-src/todo_item_class.i: src/todo_item_class.cpp.i
-.PHONY : src/todo_item_class.i
-
-# target to preprocess a source file
-src/todo_item_class.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_todo_list.dir/build.make CMakeFiles/my_todo_list.dir/src/todo_item_class.cpp.i
-.PHONY : src/todo_item_class.cpp.i
-
-src/todo_item_class.s: src/todo_item_class.cpp.s
-.PHONY : src/todo_item_class.s
-
-# target to generate assembly for a file
-src/todo_item_class.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_todo_list.dir/build.make CMakeFiles/my_todo_list.dir/src/todo_item_class.cpp.s
-.PHONY : src/todo_item_class.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... my_todo_list"
+	@echo "... src/item_class.o"
+	@echo "... src/item_class.i"
+	@echo "... src/item_class.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/todo_item_class.o"
-	@echo "... src/todo_item_class.i"
-	@echo "... src/todo_item_class.s"
 .PHONY : help
 
 
