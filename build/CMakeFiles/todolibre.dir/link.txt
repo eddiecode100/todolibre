@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/todolibre.dir/src/main.cpp.o CMakeFiles/todolibre.dir/src/item_class.cpp.o -o todolibre 

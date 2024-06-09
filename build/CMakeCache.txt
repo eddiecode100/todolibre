@@ -148,7 +148,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=my_todo_list
+CMAKE_PROJECT_NAME:STATIC=todolibre
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=0.2.0
@@ -238,6 +238,15 @@ my_todo_list_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 my_todo_list_SOURCE_DIR:STATIC=/home/eddie/Programming/C++/Programs/todo_list
+
+//Value Computed by CMake
+todolibre_BINARY_DIR:STATIC=/home/eddie/Programming/C++/Programs/todo_list/build
+
+//Value Computed by CMake
+todolibre_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+todolibre_SOURCE_DIR:STATIC=/home/eddie/Programming/C++/Programs/todo_list
 
 
 ########################

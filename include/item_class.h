@@ -16,28 +16,28 @@ class Item {
     public:
         Item() : id_(0), description_(""), completed_(false) {}
        
-        ~Item: default;
+        ~Item();
            
         // main functions
 
         bool create(std::string&);
 
-        constexpr int generateID();
+        int generateID();
+
+        std::string Status();        
 
         void clear() const;
 
 
         // getters
 
-        void getID() const;
+        void getID();
 
-        void getDesc() const;
-
-        void getStatus() const;
+        void getDesc();
+        
+        void displayUI();
 
         // setters
 
         void setDesc(std::string&);
-        
-        std::string setStatus();        
 };

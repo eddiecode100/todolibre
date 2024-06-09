@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named my_todo_list
+# Target rules for targets named todolibre
 
 # Build rule for target.
-my_todo_list: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_todo_list
-.PHONY : my_todo_list
+todolibre: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 todolibre
+.PHONY : todolibre
 
 # fast build rule for target.
-my_todo_list/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_todo_list.dir/build.make CMakeFiles/my_todo_list.dir/build
-.PHONY : my_todo_list/fast
+todolibre/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todolibre.dir/build.make CMakeFiles/todolibre.dir/build
+.PHONY : todolibre/fast
 
 src/item_class.o: src/item_class.cpp.o
 .PHONY : src/item_class.o
 
 # target to build an object file
 src/item_class.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_todo_list.dir/build.make CMakeFiles/my_todo_list.dir/src/item_class.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todolibre.dir/build.make CMakeFiles/todolibre.dir/src/item_class.cpp.o
 .PHONY : src/item_class.cpp.o
 
 src/item_class.i: src/item_class.cpp.i
@@ -142,7 +142,7 @@ src/item_class.i: src/item_class.cpp.i
 
 # target to preprocess a source file
 src/item_class.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_todo_list.dir/build.make CMakeFiles/my_todo_list.dir/src/item_class.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todolibre.dir/build.make CMakeFiles/todolibre.dir/src/item_class.cpp.i
 .PHONY : src/item_class.cpp.i
 
 src/item_class.s: src/item_class.cpp.s
@@ -150,7 +150,7 @@ src/item_class.s: src/item_class.cpp.s
 
 # target to generate assembly for a file
 src/item_class.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_todo_list.dir/build.make CMakeFiles/my_todo_list.dir/src/item_class.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todolibre.dir/build.make CMakeFiles/todolibre.dir/src/item_class.cpp.s
 .PHONY : src/item_class.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -158,7 +158,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_todo_list.dir/build.make CMakeFiles/my_todo_list.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todolibre.dir/build.make CMakeFiles/todolibre.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -166,7 +166,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_todo_list.dir/build.make CMakeFiles/my_todo_list.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todolibre.dir/build.make CMakeFiles/todolibre.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -174,7 +174,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_todo_list.dir/build.make CMakeFiles/my_todo_list.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todolibre.dir/build.make CMakeFiles/todolibre.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -185,7 +185,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... my_todo_list"
+	@echo "... todolibre"
 	@echo "... src/item_class.o"
 	@echo "... src/item_class.i"
 	@echo "... src/item_class.s"
