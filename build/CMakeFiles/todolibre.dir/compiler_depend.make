@@ -6,11 +6,7 @@ CMakeFiles/todolibre.dir/src/item_class.cpp.o: /home/eddie/Programming/C++/Progr
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/ioctl.h \
-  /usr/include/asm-generic/ioctls.h \
   /usr/include/asm/errno.h \
-  /usr/include/asm/ioctl.h \
-  /usr/include/asm/ioctls.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
   /usr/include/bits/cpu-set.h \
@@ -22,8 +18,6 @@ CMakeFiles/todolibre.dir/src/item_class.cpp.o: /home/eddie/Programming/C++/Progr
   /usr/include/bits/flt-eval-method.h \
   /usr/include/bits/fp-fast.h \
   /usr/include/bits/fp-logb.h \
-  /usr/include/bits/ioctl-types.h \
-  /usr/include/bits/ioctls.h \
   /usr/include/bits/iscanonical.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/libm-simd-decl-stubs.h \
@@ -98,6 +92,7 @@ CMakeFiles/todolibre.dir/src/item_class.cpp.o: /home/eddie/Programming/C++/Progr
   /usr/include/c++/14/bits/cpp_type_traits.h \
   /usr/include/c++/14/bits/cxxabi_forced.h \
   /usr/include/c++/14/bits/cxxabi_init_exception.h \
+  /usr/include/c++/14/bits/erase_if.h \
   /usr/include/c++/14/bits/exception.h \
   /usr/include/c++/14/bits/exception_defines.h \
   /usr/include/c++/14/bits/exception_ptr.h \
@@ -120,6 +115,7 @@ CMakeFiles/todolibre.dir/src/item_class.cpp.o: /home/eddie/Programming/C++/Progr
   /usr/include/c++/14/bits/move.h \
   /usr/include/c++/14/bits/nested_exception.h \
   /usr/include/c++/14/bits/new_allocator.h \
+  /usr/include/c++/14/bits/node_handle.h \
   /usr/include/c++/14/bits/ostream.tcc \
   /usr/include/c++/14/bits/ostream_insert.h \
   /usr/include/c++/14/bits/postypes.h \
@@ -143,8 +139,11 @@ CMakeFiles/todolibre.dir/src/item_class.cpp.o: /home/eddie/Programming/C++/Progr
   /usr/include/c++/14/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/14/bits/stl_iterator_base_types.h \
   /usr/include/c++/14/bits/stl_list.h \
+  /usr/include/c++/14/bits/stl_multiset.h \
   /usr/include/c++/14/bits/stl_numeric.h \
   /usr/include/c++/14/bits/stl_pair.h \
+  /usr/include/c++/14/bits/stl_set.h \
+  /usr/include/c++/14/bits/stl_tree.h \
   /usr/include/c++/14/bits/stl_uninitialized.h \
   /usr/include/c++/14/bits/stl_vector.h \
   /usr/include/c++/14/bits/streambuf.tcc \
@@ -194,6 +193,7 @@ CMakeFiles/todolibre.dir/src/item_class.cpp.o: /home/eddie/Programming/C++/Progr
   /usr/include/c++/14/pstl/glue_numeric_defs.h \
   /usr/include/c++/14/pstl/pstl_config.h \
   /usr/include/c++/14/random \
+  /usr/include/c++/14/set \
   /usr/include/c++/14/stdexcept \
   /usr/include/c++/14/streambuf \
   /usr/include/c++/14/string \
@@ -235,7 +235,6 @@ CMakeFiles/todolibre.dir/src/item_class.cpp.o: /home/eddie/Programming/C++/Progr
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
   /usr/include/linux/errno.h \
-  /usr/include/linux/ioctl.h \
   /usr/include/locale.h \
   /usr/include/math.h \
   /usr/include/pthread.h \
@@ -245,10 +244,8 @@ CMakeFiles/todolibre.dir/src/item_class.cpp.o: /home/eddie/Programming/C++/Progr
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
   /usr/include/sys/cdefs.h \
-  /usr/include/sys/ioctl.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
-  /usr/include/sys/ttydefaults.h \
   /usr/include/sys/types.h \
   /usr/include/time.h \
   /usr/include/wchar.h \
@@ -258,14 +255,11 @@ CMakeFiles/todolibre.dir/src/item_class.cpp.o: /home/eddie/Programming/C++/Progr
   /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h
 
 CMakeFiles/todolibre.dir/src/main.cpp.o: /home/eddie/Programming/C++/Programs/todo_list/src/main.cpp \
+  /home/eddie/Programming/C++/Programs/todo_list/include/item_class.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/ioctl.h \
-  /usr/include/asm-generic/ioctls.h \
   /usr/include/asm/errno.h \
-  /usr/include/asm/ioctl.h \
-  /usr/include/asm/ioctls.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
   /usr/include/bits/cpu-set.h \
@@ -277,8 +271,6 @@ CMakeFiles/todolibre.dir/src/main.cpp.o: /home/eddie/Programming/C++/Programs/to
   /usr/include/bits/flt-eval-method.h \
   /usr/include/bits/fp-fast.h \
   /usr/include/bits/fp-logb.h \
-  /usr/include/bits/ioctl-types.h \
-  /usr/include/bits/ioctls.h \
   /usr/include/bits/iscanonical.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/libm-simd-decl-stubs.h \
@@ -353,6 +345,7 @@ CMakeFiles/todolibre.dir/src/main.cpp.o: /home/eddie/Programming/C++/Programs/to
   /usr/include/c++/14/bits/cpp_type_traits.h \
   /usr/include/c++/14/bits/cxxabi_forced.h \
   /usr/include/c++/14/bits/cxxabi_init_exception.h \
+  /usr/include/c++/14/bits/erase_if.h \
   /usr/include/c++/14/bits/exception.h \
   /usr/include/c++/14/bits/exception_defines.h \
   /usr/include/c++/14/bits/exception_ptr.h \
@@ -375,6 +368,7 @@ CMakeFiles/todolibre.dir/src/main.cpp.o: /home/eddie/Programming/C++/Programs/to
   /usr/include/c++/14/bits/move.h \
   /usr/include/c++/14/bits/nested_exception.h \
   /usr/include/c++/14/bits/new_allocator.h \
+  /usr/include/c++/14/bits/node_handle.h \
   /usr/include/c++/14/bits/ostream.tcc \
   /usr/include/c++/14/bits/ostream_insert.h \
   /usr/include/c++/14/bits/postypes.h \
@@ -398,8 +392,11 @@ CMakeFiles/todolibre.dir/src/main.cpp.o: /home/eddie/Programming/C++/Programs/to
   /usr/include/c++/14/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/14/bits/stl_iterator_base_types.h \
   /usr/include/c++/14/bits/stl_list.h \
+  /usr/include/c++/14/bits/stl_multiset.h \
   /usr/include/c++/14/bits/stl_numeric.h \
   /usr/include/c++/14/bits/stl_pair.h \
+  /usr/include/c++/14/bits/stl_set.h \
+  /usr/include/c++/14/bits/stl_tree.h \
   /usr/include/c++/14/bits/stl_uninitialized.h \
   /usr/include/c++/14/bits/stl_vector.h \
   /usr/include/c++/14/bits/streambuf.tcc \
@@ -449,6 +446,7 @@ CMakeFiles/todolibre.dir/src/main.cpp.o: /home/eddie/Programming/C++/Programs/to
   /usr/include/c++/14/pstl/glue_numeric_defs.h \
   /usr/include/c++/14/pstl/pstl_config.h \
   /usr/include/c++/14/random \
+  /usr/include/c++/14/set \
   /usr/include/c++/14/stdexcept \
   /usr/include/c++/14/streambuf \
   /usr/include/c++/14/string \
@@ -490,7 +488,6 @@ CMakeFiles/todolibre.dir/src/main.cpp.o: /home/eddie/Programming/C++/Programs/to
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
   /usr/include/linux/errno.h \
-  /usr/include/linux/ioctl.h \
   /usr/include/locale.h \
   /usr/include/math.h \
   /usr/include/pthread.h \
@@ -500,10 +497,8 @@ CMakeFiles/todolibre.dir/src/main.cpp.o: /home/eddie/Programming/C++/Programs/to
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
   /usr/include/sys/cdefs.h \
-  /usr/include/sys/ioctl.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
-  /usr/include/sys/ttydefaults.h \
   /usr/include/sys/types.h \
   /usr/include/time.h \
   /usr/include/wchar.h \
@@ -519,15 +514,11 @@ CMakeFiles/todolibre.dir/src/main.cpp.o: /home/eddie/Programming/C++/Programs/to
 
 /usr/include/time.h:
 
-/usr/include/sys/ttydefaults.h:
-
 /usr/include/sys/single_threaded.h:
 
 /usr/include/sched.h:
 
 /usr/include/math.h:
-
-/usr/include/linux/ioctl.h:
 
 /usr/include/linux/errno.h:
 
@@ -538,6 +529,10 @@ CMakeFiles/todolibre.dir/src/main.cpp.o: /home/eddie/Programming/C++/Programs/to
 /usr/include/c++/14/x86_64-redhat-linux/bits/gthr.h:
 
 /usr/include/c++/14/x86_64-redhat-linux/bits/cpu_defines.h:
+
+/usr/include/locale.h:
+
+/usr/include/c++/14/x86_64-redhat-linux/bits/c++config.h:
 
 /usr/include/sys/select.h:
 
@@ -571,8 +566,6 @@ CMakeFiles/todolibre.dir/src/main.cpp.o: /home/eddie/Programming/C++/Programs/to
 
 /usr/include/c++/14/pstl/execution_defs.h:
 
-/usr/include/c++/14/numbers:
-
 /usr/include/c++/14/list:
 
 /usr/include/c++/14/limits:
@@ -580,6 +573,8 @@ CMakeFiles/todolibre.dir/src/main.cpp.o: /home/eddie/Programming/C++/Programs/to
 /usr/include/stdlib.h:
 
 /usr/include/c++/14/istream:
+
+/usr/include/c++/14/iosfwd:
 
 /usr/include/c++/14/ext/type_traits.h:
 
@@ -623,9 +618,9 @@ CMakeFiles/todolibre.dir/src/main.cpp.o: /home/eddie/Programming/C++/Programs/to
 
 /usr/include/c++/14/bits/stringfwd.h:
 
-/usr/include/sys/ioctl.h:
-
 /usr/include/c++/14/bits/stl_uninitialized.h:
+
+/usr/include/c++/14/bits/stl_tree.h:
 
 /usr/include/c++/14/bits/stl_numeric.h:
 
@@ -649,13 +644,29 @@ CMakeFiles/todolibre.dir/src/main.cpp.o: /home/eddie/Programming/C++/Programs/to
 
 /usr/include/c++/14/bits/requires_hosted.h:
 
-/usr/include/c++/14/bits/refwrap.h:
+/usr/include/bits/types/cookie_io_functions_t.h:
 
-/usr/include/c++/14/bits/ranges_cmp.h:
+/usr/include/c++/14/ext/numeric_traits.h:
 
-/usr/include/sys/cdefs.h:
+/usr/include/c++/14/bits/stl_iterator_base_funcs.h:
 
-/usr/include/c++/14/bits/ranges_base.h:
+/usr/include/bits/stdint-uintn.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/c++/14/bits/specfun.h:
+
+/usr/include/bits/types/clockid_t.h:
+
+/usr/include/c++/14/x86_64-redhat-linux/bits/gthr-default.h:
+
+/usr/include/bits/atomic_wide_counter.h:
+
+/usr/include/c++/14/tr1/poly_laguerre.tcc:
+
+/usr/include/c++/14/string_view:
+
+/usr/include/c++/14/bits/cxxabi_init_exception.h:
 
 /usr/include/c++/14/bits/streambuf_iterator.h:
 
@@ -671,7 +682,9 @@ CMakeFiles/todolibre.dir/src/main.cpp.o: /home/eddie/Programming/C++/Programs/to
 
 /usr/include/c++/14/bits/localefwd.h:
 
-/usr/include/asm/errno.h:
+/usr/include/bits/types/error_t.h:
+
+/usr/include/bits/stdint-intn.h:
 
 /usr/include/c++/14/system_error:
 
@@ -679,35 +692,23 @@ CMakeFiles/todolibre.dir/src/main.cpp.o: /home/eddie/Programming/C++/Programs/to
 
 /usr/include/bits/endian.h:
 
+/usr/include/asm/errno.h:
+
 /usr/include/stdint.h:
 
 /usr/include/c++/14/bits/cxxabi_forced.h:
 
-/usr/include/c++/14/bits/ranges_util.h:
-
-/usr/include/bits/mathcalls-helper-functions.h:
-
 /usr/include/bits/types/time_t.h:
 
 /usr/include/bits/types/struct_timeval.h:
-
-/usr/include/c++/14/ext/numeric_traits.h:
-
-/usr/include/c++/14/bits/stl_iterator_base_funcs.h:
-
-/usr/include/bits/stdint-uintn.h:
-
-/usr/include/bits/types/cookie_io_functions_t.h:
-
-/usr/include/bits/stdint-intn.h:
-
-/usr/include/bits/types/error_t.h:
 
 /usr/include/bits/setjmp.h:
 
 /usr/include/bits/types/struct___jmp_buf_tag.h:
 
 /usr/include/bits/types/__fpos64_t.h:
+
+/usr/include/c++/14/bits/ranges_cmp.h:
 
 /usr/include/bits/select.h:
 
@@ -717,51 +718,17 @@ CMakeFiles/todolibre.dir/src/main.cpp.o: /home/eddie/Programming/C++/Programs/to
 
 /usr/include/c++/14/bits/charconv.h:
 
-/usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h:
+/home/eddie/Programming/C++/Programs/todo_list/include/item_class.h:
 
-/usr/include/gnu/stubs.h:
+/usr/include/bits/types/mbstate_t.h:
 
-/usr/include/c++/14/x86_64-redhat-linux/bits/atomic_word.h:
-
-/usr/include/bits/pthreadtypes-arch.h:
-
-/usr/include/c++/14/bits/invoke.h:
-
-/usr/include/c++/14/x86_64-redhat-linux/bits/c++locale.h:
-
-/usr/include/bits/pthread_stack_min-dynamic.h:
-
-/usr/include/c++/14/bits/basic_ios.h:
-
-/usr/include/bits/sched.h:
-
-/usr/include/asm-generic/ioctl.h:
-
-/usr/include/c++/14/ext/string_conversions.h:
-
-/usr/include/bits/mathcalls-narrow.h:
-
-/usr/include/asm/ioctl.h:
-
-/usr/include/bits/types/wint_t.h:
-
-/usr/include/c++/14/bits/range_access.h:
-
-/usr/include/bits/types/__mbstate_t.h:
-
-/usr/include/bits/stdio_lim.h:
-
-/usr/include/bits/time.h:
+/usr/include/bits/floatn-common.h:
 
 /usr/include/bits/struct_mutex.h:
 
 /usr/include/c++/14/cstddef:
 
 /usr/include/bits/cpu-set.h:
-
-/usr/include/c++/14/bits/ostream.tcc:
-
-/usr/include/bits/typesizes.h:
 
 /usr/include/c++/14/x86_64-redhat-linux/bits/ctype_inline.h:
 
@@ -773,35 +740,29 @@ CMakeFiles/todolibre.dir/src/main.cpp.o: /home/eddie/Programming/C++/Programs/to
 
 /usr/include/c++/14/bits/exception.h:
 
-/home/eddie/Programming/C++/Programs/todo_list/include/item_class.h:
+/usr/include/bits/types/__mbstate_t.h:
 
-/usr/include/c++/14/x86_64-redhat-linux/bits/gthr-default.h:
+/usr/include/bits/stdio_lim.h:
 
-/usr/include/bits/atomic_wide_counter.h:
+/usr/include/bits/time.h:
 
-/usr/include/c++/14/bits/specfun.h:
+/usr/include/features.h:
 
-/usr/include/bits/types/clockid_t.h:
+/usr/include/bits/endianness.h:
 
-/usr/include/c++/14/tr1/poly_laguerre.tcc:
+/usr/include/bits/libm-simd-decl-stubs.h:
 
-/usr/include/c++/14/string_view:
+/usr/include/bits/types/__sigset_t.h:
 
-/usr/include/c++/14/bits/cxxabi_init_exception.h:
+/usr/include/bits/stdint-least.h:
+
+/usr/include/alloca.h:
+
+/usr/include/bits/types/locale_t.h:
+
+/usr/include/c++/14/bits/ptr_traits.h:
 
 /usr/include/bits/locale.h:
-
-/usr/include/bits/types/timer_t.h:
-
-/usr/include/c++/14/bits/functional_hash.h:
-
-/usr/include/wctype.h:
-
-/usr/include/c++/14/tr1/special_function_util.h:
-
-/usr/include/bits/timex.h:
-
-/usr/include/bits/errno.h:
 
 /usr/include/c++/14/bits/stl_iterator.h:
 
@@ -809,27 +770,27 @@ CMakeFiles/todolibre.dir/src/main.cpp.o: /home/eddie/Programming/C++/Programs/to
 
 /usr/include/asm-generic/errno-base.h:
 
+/usr/include/bits/types/clock_t.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/types/__fpos_t.h:
+
 /usr/include/c++/14/bits/exception_ptr.h:
 
 /usr/include/bits/math-vector.h:
 
 /usr/include/c++/14/bits/memory_resource.h:
 
-/usr/include/bits/stdint-least.h:
+/usr/include/bits/mathcalls-helper-functions.h:
 
-/usr/include/alloca.h:
-
-/usr/include/bits/types/__sigset_t.h:
+/usr/include/c++/14/bits/ranges_util.h:
 
 /usr/include/c++/14/bits/stl_pair.h:
 
+/usr/include/c++/14/bits/stl_multiset.h:
+
 /usr/include/bits/thread-shared-types.h:
-
-/usr/include/locale.h:
-
-/usr/include/c++/14/x86_64-redhat-linux/bits/c++config.h:
-
-/usr/include/bits/ioctl-types.h:
 
 /usr/include/c++/14/initializer_list:
 
@@ -838,20 +799,6 @@ CMakeFiles/todolibre.dir/src/main.cpp.o: /home/eddie/Programming/C++/Programs/to
 /usr/include/c++/14/tr1/beta_function.tcc:
 
 /usr/include/c++/14/bits/postypes.h:
-
-/usr/include/bits/libm-simd-decl-stubs.h:
-
-/usr/include/asm-generic/ioctls.h:
-
-/usr/include/c++/14/iosfwd:
-
-/usr/include/asm/ioctls.h:
-
-/usr/include/features.h:
-
-/usr/include/bits/endianness.h:
-
-/usr/include/bits/floatn-common.h:
 
 /usr/include/c++/14/tr1/poly_hermite.tcc:
 
@@ -887,23 +834,47 @@ CMakeFiles/todolibre.dir/src/main.cpp.o: /home/eddie/Programming/C++/Programs/to
 
 /usr/include/c++/14/bits/max_size_type.h:
 
-/usr/include/bits/types/clock_t.h:
+/usr/include/wctype.h:
 
-/usr/include/bits/mathcalls.h:
+/usr/include/c++/14/tr1/special_function_util.h:
 
-/usr/include/bits/types/__fpos_t.h:
+/usr/include/c++/14/bits/stl_set.h:
 
-/usr/include/bits/ioctls.h:
+/usr/include/bits/errno.h:
+
+/usr/include/bits/timex.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/c++/14/bits/ostream.tcc:
+
+/usr/include/c++/14/x86_64-redhat-linux/bits/c++locale.h:
+
+/usr/include/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/c++/14/bits/basic_ios.h:
 
 /usr/include/bits/iscanonical.h:
 
 /usr/include/bits/libc-header-start.h:
 
-/usr/include/c++/14/bits/ptr_traits.h:
+/usr/include/c++/14/ext/string_conversions.h:
 
-/usr/include/bits/types/locale_t.h:
+/usr/include/bits/mathcalls-narrow.h:
 
-/usr/include/bits/types/mbstate_t.h:
+/usr/include/c++/14/bits/functional_hash.h:
+
+/usr/include/bits/types/timer_t.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/c++/14/x86_64-redhat-linux/bits/atomic_word.h:
+
+/usr/include/bits/pthreadtypes-arch.h:
+
+/usr/include/c++/14/bits/invoke.h:
 
 /usr/include/bits/types/struct_FILE.h:
 
@@ -937,6 +908,10 @@ CMakeFiles/todolibre.dir/src/main.cpp.o: /home/eddie/Programming/C++/Programs/to
 
 /usr/include/c++/14/bits/locale_classes.h:
 
+/usr/include/bits/types/wint_t.h:
+
+/usr/include/c++/14/bits/range_access.h:
+
 /usr/include/bits/timesize.h:
 
 /usr/include/bits/waitstatus.h:
@@ -964,6 +939,8 @@ CMakeFiles/todolibre.dir/src/main.cpp.o: /home/eddie/Programming/C++/Programs/to
 /usr/include/c++/14/bit:
 
 /usr/include/c++/14/bits/alloc_traits.h:
+
+/usr/include/c++/14/set:
 
 /usr/include/bits/byteswap.h:
 
@@ -993,6 +970,10 @@ CMakeFiles/todolibre.dir/src/main.cpp.o: /home/eddie/Programming/C++/Programs/to
 
 /usr/include/c++/14/bits/cpp_type_traits.h:
 
+/usr/include/c++/14/numbers:
+
+/usr/include/c++/14/bits/erase_if.h:
+
 /usr/include/bits/types/__locale_t.h:
 
 /usr/include/c++/14/bits/ios_base.h:
@@ -1019,8 +1000,16 @@ CMakeFiles/todolibre.dir/src/main.cpp.o: /home/eddie/Programming/C++/Programs/to
 
 /usr/include/c++/14/bits/memoryfwd.h:
 
+/usr/include/c++/14/bits/node_handle.h:
+
 /usr/include/c++/14/random:
 
 /usr/include/c++/14/bits/ostream_insert.h:
 
 /usr/include/c++/14/bits/random.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/c++/14/bits/ranges_base.h:
+
+/usr/include/c++/14/bits/refwrap.h:

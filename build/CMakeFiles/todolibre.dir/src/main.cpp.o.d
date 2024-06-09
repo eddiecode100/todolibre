@@ -1,7 +1,8 @@
 CMakeFiles/todolibre.dir/src/main.cpp.o: \
  /home/eddie/Programming/C++/Programs/todo_list/src/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/14/iostream \
- /usr/include/c++/14/bits/requires_hosted.h \
+ /usr/include/stdc-predef.h \
+ /home/eddie/Programming/C++/Programs/todo_list/include/item_class.h \
+ /usr/include/c++/14/iostream /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/c++/14/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
  /usr/include/c++/14/x86_64-redhat-linux/bits/os_defines.h \
@@ -168,4 +169,9 @@ CMakeFiles/todolibre.dir/src/main.cpp.o: \
  /usr/include/c++/14/bits/random.tcc /usr/include/c++/14/numeric \
  /usr/include/c++/14/bits/stl_numeric.h \
  /usr/include/c++/14/pstl/glue_numeric_defs.h \
- /usr/include/c++/14/pstl/execution_defs.h /usr/include/c++/14/ctime
+ /usr/include/c++/14/pstl/execution_defs.h /usr/include/c++/14/ctime \
+ /usr/include/c++/14/set /usr/include/c++/14/bits/stl_tree.h \
+ /usr/include/c++/14/bits/node_handle.h \
+ /usr/include/c++/14/bits/stl_set.h \
+ /usr/include/c++/14/bits/stl_multiset.h \
+ /usr/include/c++/14/bits/erase_if.h

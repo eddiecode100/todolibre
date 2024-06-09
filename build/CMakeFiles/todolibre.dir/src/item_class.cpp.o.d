@@ -169,4 +169,9 @@ CMakeFiles/todolibre.dir/src/item_class.cpp.o: \
  /usr/include/c++/14/bits/random.tcc /usr/include/c++/14/numeric \
  /usr/include/c++/14/bits/stl_numeric.h \
  /usr/include/c++/14/pstl/glue_numeric_defs.h \
- /usr/include/c++/14/pstl/execution_defs.h /usr/include/c++/14/ctime
+ /usr/include/c++/14/pstl/execution_defs.h /usr/include/c++/14/ctime \
+ /usr/include/c++/14/set /usr/include/c++/14/bits/stl_tree.h \
+ /usr/include/c++/14/bits/node_handle.h \
+ /usr/include/c++/14/bits/stl_set.h \
+ /usr/include/c++/14/bits/stl_multiset.h \
+ /usr/include/c++/14/bits/erase_if.h

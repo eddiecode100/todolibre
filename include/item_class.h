@@ -6,34 +6,32 @@
 #include <random>
 #include <ctime>
 #include <cstdlib>
+#include <set>
 
 class Item {
     private:
         int id_;
         std::string description_;
         bool completed_;
-    
+        static std::set<int> ids; // declare static set to store unique ids
     public:
         Item() : id_(0), description_(""), completed_(false) {}
        
-        ~Item();
+        ~Item() = default;
            
         // main functions
 
-        bool create(std::string&);
+        bool create(const std::string&);
 
         int generateID();
 
         std::string Status();        
 
-        void clear() const;
-
-
         // getters
 
-        void getID();
+        int getID();
 
-        void getDesc();
+        std::string getDesc();
         
         void displayUI();
 

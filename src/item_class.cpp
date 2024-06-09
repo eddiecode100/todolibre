@@ -5,12 +5,20 @@
 #include <random>
 #include <ctime>
 #include <cstdlib>
+#include <set>
 
 // main functions
 
-int Item::generateID() { return rand() % 100 + 1; }
+int Item::generateID() {
+        int newID;
+        do {
+            newID = rand() % 100 + 1;
+        } while (ids.find(newID) != ids.end());
+        ids.insert(newID);
+        return newID;
+    }
 
-bool Item::create(std::string& new_msg) {
+bool Item::create(const std::string& new_msg) {
     id_ = generateID();
     description_ = new_msg;
     return true;
@@ -23,15 +31,11 @@ std::string Item::Status() {
     return "not done"; }
 }
 
-void Item::clear() const {
-    system("clear");
-}
-
 // getters 
 
-void Item::getID() { std::cout << id_; }
+int Item::getID() { return id_; }
 
-void Item::getDesc() { std::cout << description_; }
+std::string Item::getDesc() { return description_; }
 
 // setters
 

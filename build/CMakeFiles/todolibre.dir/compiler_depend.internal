@@ -7,11 +7,7 @@ CMakeFiles/todolibre.dir/src/item_class.cpp.o
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
- /usr/include/asm-generic/ioctl.h
- /usr/include/asm-generic/ioctls.h
  /usr/include/asm/errno.h
- /usr/include/asm/ioctl.h
- /usr/include/asm/ioctls.h
  /usr/include/bits/atomic_wide_counter.h
  /usr/include/bits/byteswap.h
  /usr/include/bits/cpu-set.h
@@ -23,8 +19,6 @@ CMakeFiles/todolibre.dir/src/item_class.cpp.o
  /usr/include/bits/flt-eval-method.h
  /usr/include/bits/fp-fast.h
  /usr/include/bits/fp-logb.h
- /usr/include/bits/ioctl-types.h
- /usr/include/bits/ioctls.h
  /usr/include/bits/iscanonical.h
  /usr/include/bits/libc-header-start.h
  /usr/include/bits/libm-simd-decl-stubs.h
@@ -99,6 +93,7 @@ CMakeFiles/todolibre.dir/src/item_class.cpp.o
  /usr/include/c++/14/bits/cpp_type_traits.h
  /usr/include/c++/14/bits/cxxabi_forced.h
  /usr/include/c++/14/bits/cxxabi_init_exception.h
+ /usr/include/c++/14/bits/erase_if.h
  /usr/include/c++/14/bits/exception.h
  /usr/include/c++/14/bits/exception_defines.h
  /usr/include/c++/14/bits/exception_ptr.h
@@ -121,6 +116,7 @@ CMakeFiles/todolibre.dir/src/item_class.cpp.o
  /usr/include/c++/14/bits/move.h
  /usr/include/c++/14/bits/nested_exception.h
  /usr/include/c++/14/bits/new_allocator.h
+ /usr/include/c++/14/bits/node_handle.h
  /usr/include/c++/14/bits/ostream.tcc
  /usr/include/c++/14/bits/ostream_insert.h
  /usr/include/c++/14/bits/postypes.h
@@ -144,8 +140,11 @@ CMakeFiles/todolibre.dir/src/item_class.cpp.o
  /usr/include/c++/14/bits/stl_iterator_base_funcs.h
  /usr/include/c++/14/bits/stl_iterator_base_types.h
  /usr/include/c++/14/bits/stl_list.h
+ /usr/include/c++/14/bits/stl_multiset.h
  /usr/include/c++/14/bits/stl_numeric.h
  /usr/include/c++/14/bits/stl_pair.h
+ /usr/include/c++/14/bits/stl_set.h
+ /usr/include/c++/14/bits/stl_tree.h
  /usr/include/c++/14/bits/stl_uninitialized.h
  /usr/include/c++/14/bits/stl_vector.h
  /usr/include/c++/14/bits/streambuf.tcc
@@ -195,6 +194,7 @@ CMakeFiles/todolibre.dir/src/item_class.cpp.o
  /usr/include/c++/14/pstl/glue_numeric_defs.h
  /usr/include/c++/14/pstl/pstl_config.h
  /usr/include/c++/14/random
+ /usr/include/c++/14/set
  /usr/include/c++/14/stdexcept
  /usr/include/c++/14/streambuf
  /usr/include/c++/14/string
@@ -236,7 +236,6 @@ CMakeFiles/todolibre.dir/src/item_class.cpp.o
  /usr/include/gnu/stubs-64.h
  /usr/include/gnu/stubs.h
  /usr/include/linux/errno.h
- /usr/include/linux/ioctl.h
  /usr/include/locale.h
  /usr/include/math.h
  /usr/include/pthread.h
@@ -246,10 +245,8 @@ CMakeFiles/todolibre.dir/src/item_class.cpp.o
  /usr/include/stdio.h
  /usr/include/stdlib.h
  /usr/include/sys/cdefs.h
- /usr/include/sys/ioctl.h
  /usr/include/sys/select.h
  /usr/include/sys/single_threaded.h
- /usr/include/sys/ttydefaults.h
  /usr/include/sys/types.h
  /usr/include/time.h
  /usr/include/wchar.h
@@ -260,14 +257,11 @@ CMakeFiles/todolibre.dir/src/item_class.cpp.o
 
 CMakeFiles/todolibre.dir/src/main.cpp.o
  /home/eddie/Programming/C++/Programs/todo_list/src/main.cpp
+ /home/eddie/Programming/C++/Programs/todo_list/include/item_class.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
- /usr/include/asm-generic/ioctl.h
- /usr/include/asm-generic/ioctls.h
  /usr/include/asm/errno.h
- /usr/include/asm/ioctl.h
- /usr/include/asm/ioctls.h
  /usr/include/bits/atomic_wide_counter.h
  /usr/include/bits/byteswap.h
  /usr/include/bits/cpu-set.h
@@ -279,8 +273,6 @@ CMakeFiles/todolibre.dir/src/main.cpp.o
  /usr/include/bits/flt-eval-method.h
  /usr/include/bits/fp-fast.h
  /usr/include/bits/fp-logb.h
- /usr/include/bits/ioctl-types.h
- /usr/include/bits/ioctls.h
  /usr/include/bits/iscanonical.h
  /usr/include/bits/libc-header-start.h
  /usr/include/bits/libm-simd-decl-stubs.h
@@ -355,6 +347,7 @@ CMakeFiles/todolibre.dir/src/main.cpp.o
  /usr/include/c++/14/bits/cpp_type_traits.h
  /usr/include/c++/14/bits/cxxabi_forced.h
  /usr/include/c++/14/bits/cxxabi_init_exception.h
+ /usr/include/c++/14/bits/erase_if.h
  /usr/include/c++/14/bits/exception.h
  /usr/include/c++/14/bits/exception_defines.h
  /usr/include/c++/14/bits/exception_ptr.h
@@ -377,6 +370,7 @@ CMakeFiles/todolibre.dir/src/main.cpp.o
  /usr/include/c++/14/bits/move.h
  /usr/include/c++/14/bits/nested_exception.h
  /usr/include/c++/14/bits/new_allocator.h
+ /usr/include/c++/14/bits/node_handle.h
  /usr/include/c++/14/bits/ostream.tcc
  /usr/include/c++/14/bits/ostream_insert.h
  /usr/include/c++/14/bits/postypes.h
@@ -400,8 +394,11 @@ CMakeFiles/todolibre.dir/src/main.cpp.o
  /usr/include/c++/14/bits/stl_iterator_base_funcs.h
  /usr/include/c++/14/bits/stl_iterator_base_types.h
  /usr/include/c++/14/bits/stl_list.h
+ /usr/include/c++/14/bits/stl_multiset.h
  /usr/include/c++/14/bits/stl_numeric.h
  /usr/include/c++/14/bits/stl_pair.h
+ /usr/include/c++/14/bits/stl_set.h
+ /usr/include/c++/14/bits/stl_tree.h
  /usr/include/c++/14/bits/stl_uninitialized.h
  /usr/include/c++/14/bits/stl_vector.h
  /usr/include/c++/14/bits/streambuf.tcc
@@ -451,6 +448,7 @@ CMakeFiles/todolibre.dir/src/main.cpp.o
  /usr/include/c++/14/pstl/glue_numeric_defs.h
  /usr/include/c++/14/pstl/pstl_config.h
  /usr/include/c++/14/random
+ /usr/include/c++/14/set
  /usr/include/c++/14/stdexcept
  /usr/include/c++/14/streambuf
  /usr/include/c++/14/string
@@ -492,7 +490,6 @@ CMakeFiles/todolibre.dir/src/main.cpp.o
  /usr/include/gnu/stubs-64.h
  /usr/include/gnu/stubs.h
  /usr/include/linux/errno.h
- /usr/include/linux/ioctl.h
  /usr/include/locale.h
  /usr/include/math.h
  /usr/include/pthread.h
@@ -502,10 +499,8 @@ CMakeFiles/todolibre.dir/src/main.cpp.o
  /usr/include/stdio.h
  /usr/include/stdlib.h
  /usr/include/sys/cdefs.h
- /usr/include/sys/ioctl.h
  /usr/include/sys/select.h
  /usr/include/sys/single_threaded.h
- /usr/include/sys/ttydefaults.h
  /usr/include/sys/types.h
  /usr/include/time.h
  /usr/include/wchar.h
