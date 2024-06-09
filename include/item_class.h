@@ -4,6 +4,8 @@
 #include <string>
 #include <list>
 #include <random>
+#include <ctime>
+#include <cstdlib>
 
 class Item {
     private:
@@ -20,7 +22,7 @@ class Item {
 
         bool create(std::string&);
 
-        int generateID();
+        constexpr int generateID();
 
         void clear() const;
 
@@ -35,7 +37,7 @@ class Item {
 
         // setters
 
-        std::string setDesc(std::string&);
+        void setDesc(std::string&);
         
-        bool setStatus(const bool&);
+        std::string setStatus();        
 };
