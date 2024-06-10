@@ -1,7 +1,7 @@
 CMakeFiles/todolibre.dir/src/item_class.cpp.o: \
- /home/eddie/Programming/C++/Programs/todo_list/src/item_class.cpp \
+ /home/eddie/Programming/C++/Programs/todolibre/src/item_class.cpp \
  /usr/include/stdc-predef.h \
- /home/eddie/Programming/C++/Programs/todo_list/include/item_class.h \
+ /home/eddie/Programming/C++/Programs/todolibre/include/item_class.h \
  /usr/include/c++/14/iostream /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/c++/14/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \

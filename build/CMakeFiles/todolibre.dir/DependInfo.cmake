@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/eddie/Programming/C++/Programs/todo_list/src/item_class.cpp" "CMakeFiles/todolibre.dir/src/item_class.cpp.o" "gcc" "CMakeFiles/todolibre.dir/src/item_class.cpp.o.d"
-  "/home/eddie/Programming/C++/Programs/todo_list/src/main.cpp" "CMakeFiles/todolibre.dir/src/main.cpp.o" "gcc" "CMakeFiles/todolibre.dir/src/main.cpp.o.d"
+  "/home/eddie/Programming/C++/Programs/todolibre/src/item_class.cpp" "CMakeFiles/todolibre.dir/src/item_class.cpp.o" "gcc" "CMakeFiles/todolibre.dir/src/item_class.cpp.o.d"
+  "/home/eddie/Programming/C++/Programs/todolibre/src/main.cpp" "CMakeFiles/todolibre.dir/src/main.cpp.o" "gcc" "CMakeFiles/todolibre.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

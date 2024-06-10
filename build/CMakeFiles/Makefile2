@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eddie/Programming/C++/Programs/todo_list
+CMAKE_SOURCE_DIR = /home/eddie/Programming/C++/Programs/todolibre
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eddie/Programming/C++/Programs/todo_list/build
+CMAKE_BINARY_DIR = /home/eddie/Programming/C++/Programs/todolibre/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/todolibre.dir/clean
 CMakeFiles/todolibre.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/todolibre.dir/build.make CMakeFiles/todolibre.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/todolibre.dir/build.make CMakeFiles/todolibre.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/eddie/Programming/C++/Programs/todo_list/build/CMakeFiles --progress-num=1,2,3 "Built target todolibre"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/eddie/Programming/C++/Programs/todolibre/build/CMakeFiles --progress-num=1,2,3 "Built target todolibre"
 .PHONY : CMakeFiles/todolibre.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/todolibre.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eddie/Programming/C++/Programs/todo_list/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eddie/Programming/C++/Programs/todolibre/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/todolibre.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eddie/Programming/C++/Programs/todo_list/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eddie/Programming/C++/Programs/todolibre/build/CMakeFiles 0
 .PHONY : CMakeFiles/todolibre.dir/rule
 
 # Convenience name for target.

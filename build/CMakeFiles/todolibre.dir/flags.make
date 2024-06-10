@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/eddie/Programming/C++/Programs/todo_list/include
+CXX_INCLUDES = -I/home/eddie/Programming/C++/Programs/todolibre/include
 
 CXX_FLAGS = -std=gnu++20
 
