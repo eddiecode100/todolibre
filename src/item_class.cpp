@@ -24,6 +24,7 @@ bool Item::create(const std::string& new_msg) {
     return true;
 }
 
+
 std::string Item::Status() {
     if (completed_) {
         return "done";
@@ -33,10 +34,20 @@ std::string Item::Status() {
 
 // getters 
 
-int Item::getID() { return id_; }
+int Item::getID() const { return id_; }
 
-std::string Item::getDesc() { return description_; }
+std::string Item::getDesc() const { return description_; }
+
+bool Item::isCompleted() const { return completed_; }
 
 // setters
 
 void Item::setDesc(std::string& new_msg) { description_ = new_msg; }
+
+bool Item::setCompleted(bool completed) {
+    completed_ = completed;
+    return completed_;
+}
+
+
+

@@ -8,7 +8,6 @@
 #include <set>
 
 // ANSI escape codes for colors
-
 const std::string RESET = "\033[0m";
 const std::string RED = "\033[31m";
 const std::string GREEN = "\033[32m";
@@ -18,7 +17,6 @@ const std::string MAGENTA = "\033[35m";
 const std::string CYAN = "\033[36m";
 const std::string WHITE = "\033[37m";
 
-
 std::set<int> Item::ids; // initialize static set for unique id storage
 
 int main() {
@@ -27,29 +25,22 @@ int main() {
     bool running = true;
 
     // initialize list and iterator for list
-
     std::list<Item> TodoList;
     std::list<Item>::iterator it;
     TodoList.clear();
 
-   
     // create list objects
-    
-    /*
     Item test;
     test.create("first todo");
     TodoList.push_back(test); // push test object to list
-    */
 
     // main program loop
-
     while (running) {
 
         system("clear");
 
         std::string program_name = "TodoLibre - v0.2.0";
-
-        std::cout << GREEN << program_name << '\n' << '\n';
+        std::cout << GREEN << program_name << RESET << '\n' << '\n';
 
         for (it = TodoList.begin(); it != TodoList.end(); it++) {
             std::cout << it->getID() << 
@@ -61,47 +52,49 @@ int main() {
         if (TodoList.empty()) { std::cout << RED << "enter your first todo!" << RESET << '\n' << '\n'; }
 
         std::cout << '\n';
-        std::cout << "[a]dd a new todo" << '\n';
+        std::cout << RED << "[a]dd a new todo" << '\n';
         std::cout << "[c]omplete a todo" << '\n';
         std::cout << "[r]emove a todo" << '\n';
         std::cout << "[n]ew message in a todo" << '\n';
-        std::cout << "[q]uit the program" << '\n';
+        std::cout << "[q]uit the program" << RESET << '\n';
 
         std::cout << '\n' << "enter your choice: ";
 
         char input;
-
         std::cin >> input;
 
         switch (input) {
             case 'a': {
-            
-
-            }
-
-            case 'c': {
-                
-
-
-            }
-
-            case 'r': {
-
-
-            }
-            
-            case 'n': {
-
-
-
-            }
-
-            case 'q': {
-                running = false;
-                std::cout << '\n' << "have a good day!" << '\n';
+                // Add your code for adding a new todo here
                 break;
             }
+            case 'c': {
+                std::cout << "Enter ID to mark completed or unmark: ";
 
+                int input_id;
+
+                std::cin >> input_id;
+
+                for (it = TodoList.begin(); it != TodoList.end(); it++) {
+                    if (input_id == it->getID()) {
+                        it->setCompleted(!it->isCompleted());
+                    }
+                }
+                break;
+            }
+            case 'r': {
+                // Add your code for removing a todo here
+                break;
+            }
+            case 'n': {
+                // Add your code for adding a new message to a todo here
+                break;
+            }
+            case 'q': {
+                running = false;
+                std::cout << '\n' << "have a good day!" << '\n' << '\n';
+                break;
+            }
             default: {
                 std::cout << "Invalid choice. Try again.\n";
                 std::cout << "Press Enter to continue...";

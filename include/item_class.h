@@ -29,13 +29,16 @@ class Item {
 
         // getters
 
-        int getID();
+        int getID() const;
 
-        std::string getDesc();
+        std::string getDesc() const;
         
         void displayUI();
-
+        
+        bool isCompleted() const;
         // setters
 
         void setDesc(std::string&);
+
+        bool setCompleted(bool);
 };
