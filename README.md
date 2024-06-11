@@ -1,6 +1,7 @@
 ## TodoLibre
 
-Lightweight Todo application developed in C++ 20.
+Lightweight Todo application developed in C++ 20 for the [Kirigami framework](https://develop.kde.org/frameworks/kirigami) to fit KDE standards.
+
 
 **Getting Started:**
 
