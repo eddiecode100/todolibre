@@ -1,7 +1,8 @@
 ## TodoLibre
 
-Lightweight Todo application developed in C++ 20 for the [Kirigami framework](https://develop.kde.org/frameworks/kirigami) to fit KDE standards.
+Lightweight Todo application developed in C++ 20 for the Command Line Interface. 
 
+Note: Colors only work in ANSI escape code supported terminals.
 
 **Getting Started:**
 
