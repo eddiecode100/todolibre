@@ -65,7 +65,6 @@ int main() {
 
         switch (input) {
             case 'a': {
-                // Add your code for adding a new todo here
                 break;
             }
             case 'c': {
@@ -75,7 +74,7 @@ int main() {
 
                 std::cin >> input_id;
 
-                for (it = TodoList.begin(); it != TodoList.end(); it++) {
+                for (it = TodoList.begin(); it != TodoList.end(); ++it) {
                     if (input_id == it->getID()) {
                         it->setCompleted(!it->isCompleted());
                     }
@@ -83,11 +82,23 @@ int main() {
                 break;
             }
             case 'r': {
-                // Add your code for removing a todo here
+                std::cout << "Enter the ID of the Todo to remove: ";
+
+                int input_id;
+
+                std::cin >> input_id;
+
+                for (it = TodoList.begin(); it != TodoList.end(); ++it) {
+                    if (input_id == it->getID()) {
+                        it = TodoList.erase(it);
+                    } else {
+                        ++it;
+                    }
+                }
+
                 break;
             }
             case 'n': {
-                // Add your code for adding a new message to a todo here
                 break;
             }
             case 'q': {
