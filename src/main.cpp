@@ -29,10 +29,11 @@ int main() {
     std::list<Item>::iterator it;
     TodoList.clear();
 
-    // create list objects
+    /* create list objects
     Item test;
     test.create("first todo");
     TodoList.push_back(test); // push test object to list
+    */
 
     // main program loop
     while (running) {
@@ -65,13 +66,23 @@ int main() {
 
         switch (input) {
             case 'a': {
+                std::cout << "enter your new todo message: ";
+
+                // clear newline character left in the input buffer
+                std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+                std::string msg;
+                std::getline(std::cin, msg);
+
+                Item newItem;
+                newItem.create(msg);
+                TodoList.push_back(newItem);
+     
                 break;
             }
             case 'c': {
-                std::cout << "Enter ID to mark completed or unmark: ";
-
+                std::cout << "enter ID to mark completed or unmark: ";
                 int input_id;
-
                 std::cin >> input_id;
 
                 for (it = TodoList.begin(); it != TodoList.end(); ++it) {
@@ -82,10 +93,8 @@ int main() {
                 break;
             }
             case 'r': {
-                std::cout << "Enter the ID of the Todo to remove: ";
-
+                std::cout << "enter ID of the Todo to remove: ";
                 int input_id;
-
                 std::cin >> input_id;
 
                 for (it = TodoList.begin(); it != TodoList.end(); ++it) {
@@ -99,6 +108,26 @@ int main() {
                 break;
             }
             case 'n': {
+                std::cout << "enter ID of the todo you would like to edit: ";
+                int input_id;
+                std::cin >> input_id;
+
+                // clear newline character left in the input buffer
+                std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+                std::cout << "enter the new message you would like: ";
+                std::string new_msg;
+                std::getline(std::cin, new_msg);
+
+                for (it = TodoList.begin(); it != TodoList.end(); ++it) {
+                    if (input_id == it->getID()) {
+                        it->setDesc(new_msg);
+                    } else {
+                        ++it;
+                    }
+                }
+
+
                 break;
             }
             case 'q': {
@@ -107,8 +136,8 @@ int main() {
                 break;
             }
             default: {
-                std::cout << "Invalid choice. Try again.\n";
-                std::cout << "Press Enter to continue...";
+                std::cout << "invalid choice. try again.\n";
+                std::cout << "press enter to continue...";
                 std::cin.ignore();
                 std::cin.get();
                 break;
