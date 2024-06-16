@@ -6,6 +6,8 @@
 #include <ctime>
 #include <cstdlib>
 #include <set>
+#include <thread>
+#include <chrono> 
 
 // ANSI escape codes for colors
 const std::string RESET = "\033[0m";
@@ -28,6 +30,9 @@ int main() {
     std::list<Item> TodoList;
     std::list<Item>::iterator it;
     TodoList.clear();
+
+
+
 
     /* create list objects
     Item test;
@@ -76,8 +81,7 @@ int main() {
 
                 Item newItem;
                 newItem.create(msg);
-                TodoList.push_back(newItem);
-     
+                TodoList.push_back(newItem); 
                 break;
             }
             case 'c': {
@@ -85,26 +89,59 @@ int main() {
                 int input_id;
                 std::cin >> input_id;
 
-                for (it = TodoList.begin(); it != TodoList.end(); ++it) {
-                    if (input_id == it->getID()) {
-                        it->setCompleted(!it->isCompleted());
+                if (std::cin.fail()) {
+
+                    std::cout << YELLOW << "please enter a valid ID: " << '\n' << RESET;
+                    
+                    std::cin.clear();
+
+                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+                    std::this_thread::sleep_for(std::chrono::seconds(2)); 
+                } else {
+                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+                    for (it = TodoList.begin(); it != TodoList.end(); ++it) {
+                        if (input_id == it->getID()) {
+                            it->setCompleted(!it->isCompleted());
+                        }
                     }
                 }
                 break;
             }
             case 'r': {
-                std::cout << "enter ID of the Todo to remove: ";
                 int input_id;
+                
+                std::cout << "enter ID of the Todo to remove: ";
                 std::cin >> input_id;
 
+                if (std::cin.fail()) {
+
+                    std::cout << YELLOW << "please enter a valid ID: " << '\n' << RESET;
+                    
+                    std::cin.clear();
+
+                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+                    std::this_thread::sleep_for(std::chrono::seconds(2)); 
+                } else {
+                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+                    bool found = false;    
                 for (it = TodoList.begin(); it != TodoList.end(); ++it) {
                     if (input_id == it->getID()) {
+                        found = true;
                         it = TodoList.erase(it);
                     } else {
                         ++it;
                     }
-                }
 
+                    if (!found) { // If no matching ID was found
+                        std::cout << YELLOW << "please enter a valid ID: " << '\n' << RESET;
+                        std::this_thread::sleep_for(std::chrono::seconds(2));
+                        break;
+                         }
+                }
+                }
                 break;
             }
             case 'n': {
@@ -112,22 +149,40 @@ int main() {
                 int input_id;
                 std::cin >> input_id;
 
-                // clear newline character left in the input buffer
-                std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+                if (std::cin.fail()) {
+                    std::cout << YELLOW << "please enter a valid ID: " << '\n' << RESET;
 
-                std::cout << "enter the new message you would like: ";
-                std::string new_msg;
-                std::getline(std::cin, new_msg);
+                    std::cin.clear();
 
-                for (it = TodoList.begin(); it != TodoList.end(); ++it) {
-                    if (input_id == it->getID()) {
-                        it->setDesc(new_msg);
-                    } else {
-                        ++it;
+                
+                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+                
+                    std::this_thread::sleep_for(std::chrono::seconds(2)); 
+                } else {
+                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+                    bool found = false;
+
+                    std::cout << "enter the new message you would like: ";
+                    std::string new_msg;
+                    std::getline(std::cin, new_msg);
+
+                    for (it = TodoList.begin(); it != TodoList.end(); ++it) {
+                        if (input_id == it->getID()) {
+                            it->setDesc(new_msg);
+                            found = true;
+                        } else {
+                            ++it;
+                        }
+                         if (!found) { // If no matching ID was found
+                            std::cout << YELLOW << "please enter a valid ID: " << '\n' << RESET;
+                            std::this_thread::sleep_for(std::chrono::seconds(2));
+                            break;
+                         }
+
                     }
                 }
-
-
                 break;
             }
             case 'q': {
