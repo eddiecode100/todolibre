@@ -12,8 +12,9 @@ Note: Colors only work in ANSI escape code supported terminals.
     All you need is a software to unzip ZIP files.
 
 1. **Choose your Download:**
-    - [Download for Windows]()
-    - [Download for Linux]()
+    - [Download for Windows](https://github.com/user-attachments/files/15892609/todolibre-windows.zip)
+    - [Download for Linux](https://github.com/user-attachments/files/15892359/todolibre-linux.zip)
+    - [Download for MacOS](https://github.com/user-attachments/files/15892613/todolibre-macos.zip)
 
 
 ## How to Use 
