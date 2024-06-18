@@ -14,6 +14,15 @@
 # EXTERNAL cache entries
 ########################
 
+//Build for Linux
+BUILD_FOR_LINUX:BOOL=ON
+
+//Build for macOS using Clang
+BUILD_FOR_MACOS:BOOL=OFF
+
+//Build for Windows using mingw-w64
+BUILD_FOR_WINDOWS:BOOL=OFF
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
@@ -229,6 +238,9 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+
+//Cross compile for Windows using mingw-w64
+CROSS_COMPILE_WINDOWS:BOOL=ON
 
 //Value Computed by CMake
 todolibre_BINARY_DIR:STATIC=/home/eddie/Programming/C++/Programs/todolibre/build
