@@ -2,6 +2,8 @@
 
 Lightweight Todo application developed in C++ 20 for the Command Line Interface. 
 
+This program is best utilized for keeping track of goals during long study sessions. 
+
 Note: Colors only work in ANSI escape code supported terminals.
 
 **Getting Started:**
